@@ -1,7 +1,7 @@
 <h1>Student Form</h1>
 <form action="<%= students_path %>" method="POST">
   <label>Student Name:</label>
-  <input type="text" name="student[first_name]" id="student_first_name">
+  <input type="text" name="student[first_name]" id="first_name">
 
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <input type="submit" value="Submit">
