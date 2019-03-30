@@ -3,5 +3,6 @@
   <label>Student Name:</label>
   <input type="text" name="student[name]" id="student_name">
 
-    <input type="submit" value="Submit">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="submit" value="Submit">
 </form>
